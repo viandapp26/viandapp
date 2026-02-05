@@ -245,7 +245,7 @@ document.getElementById("formPedido").onsubmit = (e) => {
         mensaje += `%0A%0A📍 *Ubicación:* %0A${encodeURIComponent(ubicacion)}`;
     }
 
-    window.open(`https://wa.me/5493764624509?text=${mensaje}`, "_blank");
+    window.open(`https://wa.me/5493764726863?text=${mensaje}`, "_blank");
 
     pedidosPendientes.push({ 
         id: Date.now(), 
@@ -371,5 +371,6 @@ function crearFondoEmojis() {
         contenedor.appendChild(span);
     }
 }
+
 
 crearFondoEmojis();
